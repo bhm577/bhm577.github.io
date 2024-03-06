@@ -1,0 +1,65 @@
+body {background-color: #F5F5DC ;}
+
+.h1, h2 {font-family: "copperplate"; text-align: center}
+
+.p1 {
+  font-family: "copperplate";
+  text-align: center;
+  padding-right: 20%;
+   padding-left: 20%;
+  }
+
+.links {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#f4f0dd;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: "copperplate";
+}
+
+a  {
+  background-color: #F5F5DC;
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+.links a.active {
+  color: rgb(255, 255, 255);
+  background-color: #F5F5DC;
+}
+
+div.form {
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #c0b797;
+  color: rgb(0, 0, 0);
+  padding: 40px 40px;
+  margin: 20px;
+  border: none;
+  border-radius: 90px;
+  cursor: pointer;
+}
+input[type=submit] {
+  width: 60%;
+  background-color: #898863;
+  color: rgb(0, 0, 0);
+  padding: 20px 20px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}

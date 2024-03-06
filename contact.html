@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> contact me</title>
+  <title> contact me</title>
   <meta charset="UTF-8">
   <meta name="description" content="contact page">
   <meta name="keywords" content="contact me, information, email">
   <meta name="author" content="byNina, Nina">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {background-color: #F5F5DC ;}
-    </style>
+  <link rel="stylesheet" href="contact.css">
 </head>
-<h1> Contact me! </h1>
-<p> For business inquiries or questions.. </p>
+<body>
 
+  <h1 class= "h1"> ByNina ♡ </h1>
+
+  <div class="links">
+    <a href="index.html">Portfolio</a>
+    <a href="about me.html">About me</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+<h2 class= "h2"> contact me </h2>
+<p class="p1"> For business inquiries or questions..</p>
+
+<div class="form">
+  <form action="/submit.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Full name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="your@email.com..">
+    <input type="submit" value="SEND">
+  </form>
+</div> 
+  
+
+</body>
 </html>
